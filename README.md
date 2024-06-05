@@ -29,3 +29,20 @@ This website was created as a homework assignment for the **Programming Hero Str
    ```bash
    git clone https://github.com/yourusername/pakwaan-restaurant.git
    cd pakwaan-restaurant
+   npm install .
+
+2.## **Installation**
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/pakwaan-restaurant-server.git
+   cd pakwaan-restaurant-server
+  npm install
+  
+2.Configuration
+PORT=5000
+MONGODB_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+
+3. Usage
+npm run dev
